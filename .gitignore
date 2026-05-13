@@ -1,0 +1,17 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Node (caso use Tailwind CLI)
+node_modules/
+package-lock.json
+dist/
+
+# Env
+.env
