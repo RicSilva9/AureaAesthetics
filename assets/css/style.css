@@ -109,9 +109,16 @@ textarea {
    Treatment Cards Animation
 ============================ */
 .treatment-extra {
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.treatment-extra.hidden {
+  display: none;
+}
+
+.treatment-extra:not(.hidden) {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .treatment-extra.is-visible {
